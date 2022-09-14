@@ -18,6 +18,7 @@ main{
 }
 
 .product{
+  cursor: pointer;
   width: 300px;
   display: inline-block;
   position: relative;
@@ -33,17 +34,11 @@ main{
   color: white;
 }
 
-.product .discount2{
-  position: absolute;
-  padding: 5px;
-  top: 0;
-  right: 0;
-  font-size: 20px;
+.product .discount.light{
   background-color: green;
-  color: white;
 }
 
-.heart{
+.product .heart{
   display: none;
   width: 100%;
   color:red;
